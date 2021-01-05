@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/abbas-task/static/css/main.b888a9b2.chunk.css",
-    "main.js": "/abbas-task/static/js/main.8d4fbaf8.chunk.js",
-    "main.js.map": "/abbas-task/static/js/main.8d4fbaf8.chunk.js.map",
+    "main.css": "/abbas-task/static/css/main.7cc31bf5.chunk.css",
+    "main.js": "/abbas-task/static/js/main.e9cf7e93.chunk.js",
+    "main.js.map": "/abbas-task/static/js/main.e9cf7e93.chunk.js.map",
     "runtime-main.js": "/abbas-task/static/js/runtime-main.ab2988bf.js",
     "runtime-main.js.map": "/abbas-task/static/js/runtime-main.ab2988bf.js.map",
     "static/js/2.7999f6d5.chunk.js": "/abbas-task/static/js/2.7999f6d5.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.e09e6ef5.chunk.js": "/abbas-task/static/js/3.e09e6ef5.chunk.js",
     "static/js/3.e09e6ef5.chunk.js.map": "/abbas-task/static/js/3.e09e6ef5.chunk.js.map",
     "index.html": "/abbas-task/index.html",
-    "static/css/main.b888a9b2.chunk.css.map": "/abbas-task/static/css/main.b888a9b2.chunk.css.map",
+    "static/css/main.7cc31bf5.chunk.css.map": "/abbas-task/static/css/main.7cc31bf5.chunk.css.map",
     "static/js/2.7999f6d5.chunk.js.LICENSE.txt": "/abbas-task/static/js/2.7999f6d5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ab2988bf.js",
     "static/js/2.7999f6d5.chunk.js",
-    "static/css/main.b888a9b2.chunk.css",
-    "static/js/main.8d4fbaf8.chunk.js"
+    "static/css/main.7cc31bf5.chunk.css",
+    "static/js/main.e9cf7e93.chunk.js"
   ]
 }
