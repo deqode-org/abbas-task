@@ -1,5 +1,6 @@
 .searchBoxContainer {
   width: 400px;
+  position: relative;
 }
 
 .options {

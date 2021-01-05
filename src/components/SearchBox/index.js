@@ -22,8 +22,25 @@ class SearchBox extends React.Component {
     // ref object created to ring focus back on input field for continous typing
     this.searchInput = React.createRef();
 
+    // ref object created to detect outside click
+    this.wrapperRef = React.createRef();
+
     // Debouncing feature
     this.getSuggestionsFromServer = debounce(this.generateSuggestionList, 500);
+  }
+
+  componentDidMount() {
+    document.addEventListener('mousedown', this.handleClickOutside);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('mousedown', this.handleClickOutside);
+  }
+
+  handleClickOutside = (event) => {
+    if (this.wrapperRef && !this.wrapperRef.current.contains(event.target)) {
+      this.setState({ showOptions: false})
+    }
   }
 
   // click function to control mouse based selections
@@ -90,7 +107,7 @@ class SearchBox extends React.Component {
     const { value, showOptions, suggestions } = this.state;
 
     return (
-      <div className="searchBoxContainer">
+      <div className="searchBoxContainer" ref={this.wrapperRef}>
         <input
           autoFocus
           type="text"
