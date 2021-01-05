@@ -3,7 +3,7 @@ import SearchBox from '../components/SearchBox';
 
 const App = () => {
   return (
-    <div>
+    <div className="appContainer">
       <SearchBox />
     </div>
   );
